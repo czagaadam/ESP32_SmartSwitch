@@ -19,3 +19,5 @@ The standout feature of this smart switch is its ability to control a light remo
 Communication and control are handled by a minimalist ESP32-S3 module, designed for easy integration with the main board containing the relays, terminal blocks, and power supply.
 
 ![altium_esp32_minimal_boardonline-video-cutter com-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/ce1eae47-0aab-41e6-a039-490801e076d3)
+
+The entire system requires a low-power computer for operation — a Raspberry Pi 3B+ or any newer version is perfectly suited for this purpose. It serves as the host for the MQTT broker and can also run the control application, which can be accessed from a smartphone if needed.
